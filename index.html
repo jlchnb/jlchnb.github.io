@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Descargar App</title>
@@ -9,20 +13,56 @@
 <body>
   <div class="background"></div>
   <div class="content">
+    <p>PanoramApp</p>
     <div class="logo">
       <img src="./assets/logo.png" alt="Logo de la app">
     </div>
+    <div>
+      <p class="texto1">¡Muchos eventos te esperan!<br></p>
+      <p class="texto2">
+        no dejes que te lo cuenten, se el primero en descubrir los de tu zona
+      </p>
+    </div>
+    
     <div id="download-options"></div>
   </div>
 
   <section class="steps">
-    <h2>¿Cómo conseguir la app?</h2>
+    <h2>¿Cómo funciona?</h2>
     <ol>
-      <li>Descarga el archivo APK desde el enlace proporcionado.</li>
+      <li>Descarga la APP más abajo</li>
       <li>Habilita la instalación de apps desde fuentes desconocidas en tu dispositivo.</li>
       <li>Instala el archivo APK y disfruta de PanoramApp.</li>
     </ol>
+    <div id="dynamic-download-options"></div>
   </section>
+
+<section class="testimonials">
+  <div class="carousel-container">
+    <div class="carousel-item">
+      <p>"Me encanta PanoramApp. ¡Es súper fácil de usar y siempre me mantiene informado!"</p>
+      <div class="user-info">
+        <img src="assets/cara1.png" alt="Usuario 1" class="user-photo">
+        <span>-Daniel</span>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <p>"La aplicación es increíble. ¡Nunca me pierdo de ningún evento!"</p>
+      <div class="user-info">
+        <img src="assets/cara2.png" alt="Usuario 2" class="user-photo">
+        <span>-Gabriel</span>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <p>"¡Excelente app! La recomiendo a todos mis amigos. Muy útil para estar al tanto de todo."</p>
+      <div class="user-info">
+        <img src="assets/cara3.png" alt="Usuario 3" class="user-photo">
+        <span>-Ariel</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <script src="script.js"></script>
 </body>
